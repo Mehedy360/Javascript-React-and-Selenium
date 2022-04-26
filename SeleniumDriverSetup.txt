@@ -1,0 +1,12 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver import Chrome
+#driver = Chrome
+#driver = webdriver.Chrome(executable_path="E:\Drivers\chromedriver.exe")
+#driver = webdriver.Firefox(executable_path="E:\Drivers\geckodriver.exe")
+#driver = webdriver.Ie(executable_path="E:\Drivers\IEDriverServer.exe")
+
+driver.get("http://newtours.demoaut.com/")
+
+print(driver.title)
+driver.close()
