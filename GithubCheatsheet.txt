@@ -1,4 +1,4 @@
-touch .gitignore
+gittouch .gitignore
 git config --global user.name Mehedy360
 git config --global user.email mehedyhasan360@gmail.com
 git init
